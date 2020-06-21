@@ -32,7 +32,7 @@ public class LambdaMethods {
 			System.out.println(newString);
 		}, "repeat");
 		//5. Call the printCustonMessage method using a lambda so that the String prints without any vowels.
-		printCustomMessage((s)->{
+		printCustomMessage(s->{
 			String newString = "";
 			for (int i = 0; i < s.length(); i++) {
 				char z = s.charAt(i);
